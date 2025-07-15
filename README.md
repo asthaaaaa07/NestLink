@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog Preview Card Screenshot](./screenshot.png)
+![Blog Preview Card Screenshot](./screenshot.jpg)
 
 ### Links
 
 - 🔗 [Live Site](https://asthaaaaa07.github.io/blog-preview-card/)
-- 💻 [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-using-html-css-flexbox-mobile-responsive-xyz123) <!-- Update this with your real solution link -->
+- 💻 [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-using-html-css-flexbox-mobile-responsive)
 
 ---
 
