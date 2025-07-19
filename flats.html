@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Browse Flats – NestLink</title>
+  <link rel="stylesheet" href="flats.css">
+</head>
+<body>
+  <header>
+    <h1>Browse Available Flats</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="match.html">Match</a>
+      <a href="form.html">Form</a>
+      <a href="flats.html" class="active">Flats</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="filters">
+    <h2>Filter Flats</h2>
+    <form id="flat-filters">
+      <label>
+        Location:
+        <select>
+          <option value="">Any</option>
+          <option value="delhi">Delhi</option>
+          <option value="bangalore">Bangalore</option>
+          <option value="mumbai">Mumbai</option>
+        </select>
+      </label>
+      <label>
+        Budget (₹):
+        <input type="number" placeholder="Max budget" />
+      </label>
+      <label>
+        BHK:
+        <select>
+          <option value="">Any</option>
+          <option value="1">1 BHK</option>
+          <option value="2">2 BHK</option>
+          <option value="3">3 BHK</option>
+        </select>
+      </label>
+      <button type="submit">Apply Filters</button>
+    </form>
+  </section>
+
+  <section class="flat-cards">
+    <h2>Flats Found</h2>
+    <div class="cards-container">
+      <div class="flat-card">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Flat 1">
+        <div class="flat-info">
+          <h3>2 BHK in Delhi</h3>
+          <p>₹15,000/month</p>
+          <p>Near metro, semi-furnished, family preferred.</p>
+        </div>
+      </div>
+      <div class="flat-card">
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2" alt="Flat 2">
+        <div class="flat-info">
+          <h3>1 BHK in Bangalore</h3>
+          <p>₹10,000/month</p>
+          <p>Available for immediate move-in. Pet friendly.</p>
+        </div>
+      </div>
+      <div class="flat-card">
+        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914" alt="Flat 3">
+        <div class="flat-info">
+          <h3>3 BHK in Mumbai</h3>
+          <p>₹25,000/month</p>
+          <p>Sea-facing, furnished, includes amenities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

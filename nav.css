@@ -1,0 +1,32 @@
+/* navbar.css */
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+nav a.active {
+  color: #5e60ce;
+  font-weight: bold;
+  border-bottom: 2px solid #5e60ce;
+}
+
+nav a:hover {
+  color: #4d4fc5;
+}

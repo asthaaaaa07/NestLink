@@ -1,0 +1,43 @@
+/* --- Flats Page --- */
+.filters {
+  padding: 2rem;
+  background-color: #fafafa;
+  border-bottom: 1px solid #ddd;
+}
+.filters form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.filters label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+.flat-cards {
+  padding: 2rem;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+.flat-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+}
+.flat-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.flat-info {
+  padding: 1rem;
+}
+.flat-info h3 {
+  margin: 0 0 0.5rem 0;
+}
+

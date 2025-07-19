@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | NestLink</title>
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="nav.css" />
+
+</head>
+<body>
+  <header class="header">
+    <h1>NestLink</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="match.html">Match</a>
+      <a href="flats.html">Flats</a>
+      <a href="form.html">Form</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="contact-container">
+    <section class="contact-box">
+      <h2>Contact Us</h2>
+      <p>Have questions, suggestions, or need support? Reach out below!</p>
+      <form action="thankyou.html" method="post" class="contact-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message / Feedback</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 NestLink. All rights reserved.</p>
+  </footer>
+</body>
+</html>
