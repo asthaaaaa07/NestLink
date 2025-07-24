@@ -81,11 +81,6 @@ NestLink offers:
 
 ---
 
-## 📢 Acknowledgments
-
-This project is part of the **Wadhwani Venture Cohort 2025**, aimed at nurturing early-stage student entrepreneurs.
-
----
 
 ## 📬 Contact
 
